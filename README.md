@@ -1,20 +1,20 @@
-# JetBrains Themes for Orca
+# JB-Style Themes for Orca
 
-Color themes for [Orca](https://github.com/stablyai/orca) taken from the JetBrains IDEs
+Color themes for [Orca](https://github.com/stablyai/orca) inspired by the JetBrains IDEs
 (IntelliJ Platform 2025.3): app colors, editor syntax colors and terminal palettes.
 
 | App theme | Base | Based on |
 | --- | --- | --- |
-| JetBrains Islands Dark | dark | Islands Dark (2025.3 default) + Islands Dark editor scheme |
-| JetBrains Dark | dark | New UI "Dark" + Dark editor scheme |
-| JetBrains Islands Light | light | Islands Light + Light editor scheme |
+| Islands Dark (JetBrains-style) | dark | Islands Dark (2025.3 default) + Islands Dark editor scheme |
+| Dark (JetBrains-style) | dark | New UI "Dark" + Dark editor scheme |
+| Islands Light (JetBrains-style) | light | Islands Light + Light editor scheme |
 
-Terminal themes: **JetBrains Islands Dark**, **JetBrains Dark** and **JetBrains Light**, from
+Terminal themes: **Islands Dark**, **Dark** and **Light** (each "JetBrains-style"), from
 each scheme's console ANSI colors.
 
 ## Install
 
-- From the catalog: search for "JetBrains Themes" in Orca's plugin browser.
+- From the catalog: search for "JB-Style Themes" in Orca's plugin browser.
 - From a checkout: `orca plugin dev load <path-to-this-folder>`.
 
 Then pick the themes in **Settings → Appearance** (app, editor and terminal themes are chosen

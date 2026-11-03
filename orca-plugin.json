@@ -2,10 +2,10 @@
   "manifestVersion": 2,
   "id": "jetbrains-themes",
   "publisher": "cd3vane",
-  "name": "JetBrains Themes",
-  "version": "1.0.0",
+  "name": "JB-Style Themes",
+  "version": "1.0.1",
   "execution": "data",
-  "description": "Islands Dark, Islands Light and classic Dark colors from JetBrains IDEs, with matching editor syntax and terminal palettes.",
+  "description": "Inspired by the JetBrains IDEs: Islands Dark, Islands Light and classic Dark colors, with matching editor syntax and terminal palettes. Not affiliated with JetBrains.",
   "license": "MIT",
   "repository": "https://github.com/cd3vane/jetbrains-orca",
   "engines": {
@@ -15,34 +15,34 @@
     "themes": [
       {
         "id": "islands-dark",
-        "title": "JetBrains Islands Dark",
+        "title": "Islands Dark (JetBrains-style)",
         "path": "themes/islands-dark.json"
       },
       {
         "id": "dark",
-        "title": "JetBrains Dark",
+        "title": "Dark (JetBrains-style)",
         "path": "themes/dark.json"
       },
       {
         "id": "islands-light",
-        "title": "JetBrains Islands Light",
+        "title": "Islands Light (JetBrains-style)",
         "path": "themes/islands-light.json"
       }
     ],
     "terminalThemes": [
       {
         "id": "islands-dark",
-        "title": "JetBrains Islands Dark",
+        "title": "Islands Dark (JetBrains-style)",
         "path": "terminal/islands-dark.json"
       },
       {
         "id": "dark",
-        "title": "JetBrains Dark",
+        "title": "Dark (JetBrains-style)",
         "path": "terminal/dark.json"
       },
       {
         "id": "light",
-        "title": "JetBrains Light",
+        "title": "Light (JetBrains-style)",
         "path": "terminal/light.json"
       }
     ]
@@ -50,27 +50,27 @@
   "capabilities": [],
   "cover": {
     "path": "images/cover.png",
-    "alt": "JetBrains Islands Dark in Orca: a TypeScript file with JetBrains syntax colors beside the file explorer"
+    "alt": "Islands Dark (JetBrains-style) in Orca: a TypeScript file with JetBrains-style syntax colors beside the file explorer"
   },
   "screenshots": [
     {
       "path": "images/editor-islands-dark.png",
-      "alt": "A TypeScript file in JetBrains Islands Dark with git-modified files highlighted in the explorer",
+      "alt": "A TypeScript file in the Islands Dark (JetBrains-style) theme with git-modified files highlighted in the explorer",
       "caption": "Islands Dark: editor"
     },
     {
       "path": "images/terminal-islands-dark.png",
-      "alt": "git status, git log and a test run in the JetBrains Islands Dark terminal palette",
+      "alt": "git status, git log and a test run in the Islands Dark (JetBrains-style) terminal palette",
       "caption": "Islands Dark: terminal"
     },
     {
       "path": "images/editor-islands-light.png",
-      "alt": "A Python file in JetBrains Islands Light",
+      "alt": "A Python file in the Islands Light (JetBrains-style) theme",
       "caption": "Islands Light: editor"
     },
     {
       "path": "images/diff-dark.png",
-      "alt": "An inline diff with source control changes in JetBrains Dark",
+      "alt": "An inline diff with source control changes in the Dark (JetBrains-style) theme",
       "caption": "Dark: diff and source control"
     }
   ]
