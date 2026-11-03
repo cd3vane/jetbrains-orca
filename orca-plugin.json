@@ -1,0 +1,77 @@
+{
+  "manifestVersion": 2,
+  "id": "jetbrains-themes",
+  "publisher": "cd3vane",
+  "name": "JetBrains Themes",
+  "version": "1.0.0",
+  "execution": "data",
+  "description": "Islands Dark, Islands Light and classic Dark colors from JetBrains IDEs, with matching editor syntax and terminal palettes.",
+  "license": "MIT",
+  "repository": "https://github.com/cd3vane/jetbrains-orca",
+  "engines": {
+    "orca": ">=1.4.245"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "id": "islands-dark",
+        "title": "JetBrains Islands Dark",
+        "path": "themes/islands-dark.json"
+      },
+      {
+        "id": "dark",
+        "title": "JetBrains Dark",
+        "path": "themes/dark.json"
+      },
+      {
+        "id": "islands-light",
+        "title": "JetBrains Islands Light",
+        "path": "themes/islands-light.json"
+      }
+    ],
+    "terminalThemes": [
+      {
+        "id": "islands-dark",
+        "title": "JetBrains Islands Dark",
+        "path": "terminal/islands-dark.json"
+      },
+      {
+        "id": "dark",
+        "title": "JetBrains Dark",
+        "path": "terminal/dark.json"
+      },
+      {
+        "id": "light",
+        "title": "JetBrains Light",
+        "path": "terminal/light.json"
+      }
+    ]
+  },
+  "capabilities": [],
+  "cover": {
+    "path": "images/cover.png",
+    "alt": "JetBrains Islands Dark in Orca: a TypeScript file with JetBrains syntax colors beside the file explorer"
+  },
+  "screenshots": [
+    {
+      "path": "images/editor-islands-dark.png",
+      "alt": "A TypeScript file in JetBrains Islands Dark with git-modified files highlighted in the explorer",
+      "caption": "Islands Dark: editor"
+    },
+    {
+      "path": "images/terminal-islands-dark.png",
+      "alt": "git status, git log and a test run in the JetBrains Islands Dark terminal palette",
+      "caption": "Islands Dark: terminal"
+    },
+    {
+      "path": "images/editor-islands-light.png",
+      "alt": "A Python file in JetBrains Islands Light",
+      "caption": "Islands Light: editor"
+    },
+    {
+      "path": "images/diff-dark.png",
+      "alt": "An inline diff with source control changes in JetBrains Dark",
+      "caption": "Dark: diff and source control"
+    }
+  ]
+}
